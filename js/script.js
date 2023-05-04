@@ -336,60 +336,60 @@
 	
 	
 	// Nearby Locations Map
-	if($('#locations-box').length){
+	// if($('#locations-box').length){
 	  
-		$('#locations-box').gMap({
-			controls: false,
-			scrollwheel: false,
-			maptype: 'ROADMAP', // 'HYBRID', 'SATELLITE', 'ROADMAP' or 'TERRAIN'
-			markers: [
-				{
-					latitude: 24.062040,
-					longitude: 89.871008,
-					icon: {
-						image: "images/icons/marker-one.png",
-						iconsize: [32, 44],
-						iconanchor: [32,44]
-					}
-				},
-				{
-					latitude: 23.997445,
-					longitude: 89.753155,
-					icon: {
-						image: "images/icons/marker-two.png",
-						iconsize: [32, 44],
-						iconanchor: [32,44]
-					}
-				},
-				{
-					latitude: 23.980507,
-					longitude: 89.984305,
-					icon: {
-						image: "images/icons/marker-three.png",
-						iconsize: [32, 44],
-						iconanchor: [32,44]
-					}
-				},
-				{
-					latitude: 23.907838,
-					longitude: 90.039923,
-					icon: {
-						image: "images/icons/marker-four.png",
-						iconsize: [32, 44],
-						iconanchor: [32,44]
-					}
-				}
-			],
-			icon: {
-				image: "images/icons/map-marker.png", 
-				iconsize: [32, 44],
-				iconanchor: [32,44]
-			},
-			latitude: 24.062040,
-			longitude: 89.871008,
-			zoom: 10
-		});
-	}
+	// 	$('#locations-box').gMap({
+	// 		controls: false,
+	// 		scrollwheel: false,
+	// 		maptype: 'ROADMAP', // 'HYBRID', 'SATELLITE', 'ROADMAP' or 'TERRAIN'
+	// 		markers: [
+	// 			{
+	// 				latitude: 24.062040,
+	// 				longitude: 89.871008,
+	// 				icon: {
+	// 					image: "images/icons/marker-one.png",
+	// 					iconsize: [32, 44],
+	// 					iconanchor: [32,44]
+	// 				}
+	// 			},
+	// 			{
+	// 				latitude: 23.997445,
+	// 				longitude: 89.753155,
+	// 				icon: {
+	// 					image: "images/icons/marker-two.png",
+	// 					iconsize: [32, 44],
+	// 					iconanchor: [32,44]
+	// 				}
+	// 			},
+	// 			{
+	// 				latitude: 23.980507,
+	// 				longitude: 89.984305,
+	// 				icon: {
+	// 					image: "images/icons/marker-three.png",
+	// 					iconsize: [32, 44],
+	// 					iconanchor: [32,44]
+	// 				}
+	// 			},
+	// 			{
+	// 				latitude: 23.907838,
+	// 				longitude: 90.039923,
+	// 				icon: {
+	// 					image: "images/icons/marker-four.png",
+	// 					iconsize: [32, 44],
+	// 					iconanchor: [32,44]
+	// 				}
+	// 			}
+	// 		],
+	// 		icon: {
+	// 			image: "images/icons/map-marker.png", 
+	// 			iconsize: [32, 44],
+	// 			iconanchor: [32,44]
+	// 		},
+	// 		latitude: 24.062040,
+	// 		longitude: 89.871008,
+	// 		zoom: 10
+	// 	});
+	// }
 	
 	
 	
